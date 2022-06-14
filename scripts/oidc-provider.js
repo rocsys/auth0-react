@@ -26,8 +26,8 @@ const config = {
     }
   ],
   routes: {
-    authorization: '/authorize', // lgtm [js/hardcoded-credentials]
-    token: '/oauth/token',
+    authorization: '/auth', // lgtm [js/hardcoded-credentials]
+    token: '/token',
     end_session: '/v2/logout'
   },
   scopes: ['openid', 'offline_access', 'profile'],
